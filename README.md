@@ -19,4 +19,9 @@
 - how many rows and col ? `df.shape`    (85485, 6)
 
 - infomration about column names `df.info()`
+  
 ![](df_info.png)
+
+- `df.head()` to load first 5 col or `df.tail()` last 5 col to see what the dataframe looks like
+  ![](df_head.png)
+
