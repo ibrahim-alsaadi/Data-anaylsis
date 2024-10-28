@@ -15,5 +15,4 @@
 
 ## Understanding our dataframe
 - import the csv file with pandas
-- df = pd.read_csv('Tooling_parts_list.csv')
-`your_code_here`
+`df = pd.read_csv('Tooling_parts_list.csv')`
