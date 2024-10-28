@@ -36,6 +36,12 @@
   - Number rows dropped from 85,485 to 4147
   ![](df.info_filtered.png)
 
+- The Zone number can be extracted from col['Folder Path'] and add new col['Zone']
+- That can be achieved with Regular expression operations libary
+
+  ![](zone.png)
+
+  
 
 
 - Similar method 
