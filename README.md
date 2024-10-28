@@ -4,5 +4,8 @@
 ![Clamp](Clamp_unit.jpg)
 
 ## Getting the source file from the server
+- Using PowerQuery , we can return a list of files of mylars from each Zone folder.
 ![](files.png)
+- Select new Source , from folder , select the main folder of the zones that have 3D CAD files
+![](powerQuery.png)
 
