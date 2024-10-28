@@ -1,4 +1,4 @@
-# Can we understand the number of Mylars of each zone and improve manufacturing lead time?
+# Can we understand the total number of Mylars of each zone and improve manufacturing lead time?
 - In this task, we're trying to assist manufacturers in prioritizing by understanding the number of Mylars in each zone to enhance manufacturing lead time.
 - Mylars are stored in the server as 3D CAT files with standardized names such as "T3A3_FX02__011_COM_TR_U002TA_0017_00_MYLAR.CATPart". Therefore, we can retrieve a list of Mylars.
 ![Clamp](Clamp_unit.jpg)
@@ -56,9 +56,18 @@
 
 
   - PivotChart is ceated
+  
   ![](pivotchart.png)
 
+
+
+
   ![](barchart.png)
+
+  - Sum of all mylars = 4,147
+  - Zone 06 should be the highest priority to push for manufacturing as early as possible because it has quite mylars to be manufactured.
+  - Z22.4 cna be finished and delievered faster to teh customer because it has got the lowest number of mylars
+  - Total number of mylars of each zone was achieved.  
 
 
 
