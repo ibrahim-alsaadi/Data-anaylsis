@@ -9,6 +9,11 @@
 ![](files.png)
 
 - Select new Source , from folder , select the main folder of the zones that have 3D CAD files
+- Close & load the data. Save it as csv to analyse it with python
 
 ![](powerQuery.png)
 
+## Understanding our dataframe
+- import the csv file with pandas
+- df = pd.read_csv('Tooling_parts_list.csv')
+`your_code_here`
