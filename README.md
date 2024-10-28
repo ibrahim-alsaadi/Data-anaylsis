@@ -51,6 +51,10 @@
   ![](pivot_table.png)
 
 
+
+
+
+
   - PivotChart is ceated
   ![](pivotchart.png)
 
