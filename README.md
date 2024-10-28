@@ -1,4 +1,6 @@
 # Can we understand the number of Mylars of each zone and improve manufacturing lead time?
-- In this task, we're striving to assist manufacturers in prioritizing by understanding the number of Mylars in each zone to enhance manufacturing lead time.
+- In this task, we're trying to assist manufacturers in prioritizing by understanding the number of Mylars in each zone to enhance manufacturing lead time.
+- Mylars are stored in the server as 3D CAT files with standardized names such as "T3A3_FX02__011_COM_TR_U002TA_0017_00_MYLAR.CATPart". Therefore, we can retrieve a list of Mylars.
 ![Clamp](Clamp_unit.jpg)
+
 
