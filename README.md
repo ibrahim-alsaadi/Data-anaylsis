@@ -16,3 +16,4 @@
 ## Understanding our dataframe
 - import the csv file with pandas
 `df = pd.read_csv('Tooling_parts_list.csv')`
+- how many rows and col ? `df.shape`    (85485, 6)
