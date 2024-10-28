@@ -48,7 +48,7 @@
 
   - Exported it as csv file to create bar chart to display key metrics and data visually.
   - PivoteTable is created to get the sum of mylars for each zone
-  ![](pivot_table.png)
+  ![](pivot_table1.png)
 
 
 
