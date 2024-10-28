@@ -64,13 +64,13 @@
 
   ![](barchart.png)
 
-Sum of all Mylars: 4,147
+- Sum of all Mylars: 4,147
 
-Priority: Zone 06 should be pushed for manufacturing as early as possible because it has a significant number of Mylars to be produced.
+- Priority: Zone 06 should be pushed for manufacturing as early as possible because it has a significant number of Mylars to be produced.
 
-Quick Delivery: Zone 22.4 can be finished and delivered faster to the customer because it has the lowest number of Mylars.
+- Quick Delivery: Zone 22.4 can be finished and delivered faster to the customer because it has the lowest number of Mylars.
 
-Total Count: The total number of Mylars for each zone was calculated.
+- Total Count: The total number of Mylars for each zone was calculated.
 
 
 
