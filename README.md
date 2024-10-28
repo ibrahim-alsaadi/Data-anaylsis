@@ -13,7 +13,7 @@
 
 ![](powerQuery.png)
 
-## Understanding our dataframe
+## Dataframe preproessing and manipulation
 - import the csv file with pandas
 `df = pd.read_csv('Tooling_parts_list.csv')`
 - how many rows and col ? `df.shape`    (85485, 6)
@@ -25,3 +25,12 @@
 - `df.head()` to load first 5 col or `df.tail()` last 5 col to see what the dataframe looks like
   ![](df_head.png)
 
+- Column name should be filtered only files that contain the word "Mylar"
+  `mylar_files = df.copy()`
+  `mylar_files = df[df['Name'].str.contains('mylar', case=False, na=False)]`
+  `mylar_files.info()`
+- ![](files_info.png)
+
+  ``
+  ``
+  ``
