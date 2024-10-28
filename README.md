@@ -3,4 +3,6 @@
 - Mylars are stored in the server as 3D CAT files with standardized names such as "T3A3_FX02__011_COM_TR_U002TA_0017_00_MYLAR.CATPart". Therefore, we can retrieve a list of Mylars.
 ![Clamp](Clamp_unit.jpg)
 
+## Getting the source file from the server
+
 
