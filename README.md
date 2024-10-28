@@ -26,9 +26,9 @@
   ![](df_head.png)
 
 - Column name should be filtered only files that contain the word "Mylar"
-  `mylar_files = df.copy()`
-  `mylar_files = df[df['Name'].str.contains('mylar', case=False, na=False)]`
-  `mylar_files.info()`
+  - `mylar_files = df.copy()`
+  - `mylar_files = df[df['Name'].str.contains('mylar', case=False, na=False)]`
+  - `mylar_files.info()`
 - ![](files_info.png)
 
   ``
