@@ -34,7 +34,7 @@
 `
   - `mylar_files.info()`
   - Number rows dropped from 85,485 to 5783
-- ![](files_info.png)
+  ![](df.info_filtered.png)
 
 
 
