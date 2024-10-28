@@ -26,10 +26,19 @@
   ![](df_head.png)
 
 - Column name should be filtered only files that contain the word "Mylar"
+- Some folders should be filtered out of the col "Folder path" because it doesn't belong to one of the zone folder 
   - `mylar_files = df.copy()`
-  - `mylar_files = df[df['Name'].str.contains('mylar', case=False, na=False)]`
+  - `search_pattern = 'ducting|archive|2024-10-16_14-41-11|New folder|OLD'`
+  - exclude rows where the 'Folder Path' column contains a specified search_pattern, case-insensitively and ignoring NaN values. The ~ operator negates the condition, so it keeps rows that do not match the search_pattern
+  - `filtered_df = df[df['Name'].str.contains('mylar' , case = False , na=False) & ~df['Folder Path'].str.contains( search_pattern, case = False , na = False) ] 
+`
   - `mylar_files.info()`
+  - Number rows dropped from 85,485 to 5783
 - ![](files_info.png)
+
+
+
+- Similar method 
 
   ``
   ``
