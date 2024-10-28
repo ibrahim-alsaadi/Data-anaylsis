@@ -67,7 +67,7 @@
   - Sum of all mylars = 4,147
   - Zone 06 should be the highest priority to push for manufacturing as early as possible because it has quite mylars to be manufactured.
   - Z22.4 cna be finished and delievered faster to teh customer because it has got the lowest number of mylars
-  - Total number of mylars of each zone was achieved.  
+  - Total number of mylars for each zone was achieved.  
 
 
 
