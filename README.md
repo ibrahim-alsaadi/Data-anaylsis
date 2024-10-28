@@ -58,10 +58,7 @@
   - PivotChart is ceated
   ![](pivotchart.png)
 
+  ![](barchart.png)
 
 
-- Similar method 
 
-  ``
-  ``
-  ``
