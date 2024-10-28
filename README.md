@@ -32,8 +32,8 @@
   - exclude rows where the 'Folder Path' column contains a specified search_pattern, case-insensitively and ignoring NaN values. The ~ operator negates the condition, so it keeps rows that do not match the search_pattern
   - `filtered_df = df[df['Name'].str.contains('mylar' , case = False , na=False) & ~df['Folder Path'].str.contains( search_pattern, case = False , na = False) ] 
 `
-  - `mylar_files.info()`
-  - Number rows dropped from 85,485 to 5783
+  - `filtered_df.info()`
+  - Number rows dropped from 85,485 to 4147
   ![](df.info_filtered.png)
 
 
